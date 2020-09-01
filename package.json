@@ -1,0 +1,33 @@
+{
+  "name": "lax-quick-start",
+  "version": "3.5.6",
+  "description": "Quick start up for web developers usings Linux",
+  "main": "install.js",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node install.js",
+    "install": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quelchlax/lax-quick-start.git"
+  },
+  "keywords": [
+    "manjaro",
+    "fedora",
+    "ubuntu",
+    "debian",
+    "mint-linux",
+    "arch-linux"
+  ],
+  "author": "quelchlax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quelchlax/lax-quick-start/issues"
+  },
+  "homepage": "https://github.com/quelchlax/lax-quick-start#readme"
+}
