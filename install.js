@@ -1,6 +1,6 @@
 const shell = require('shelljs')
 
-function download(){
+function download() {
   shell.exec('python3 init.py')
 }
 
