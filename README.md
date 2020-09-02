@@ -6,6 +6,7 @@
 
 # **Lax Quick Start**
 - **`Package is meant for personal use. Coded for experimental and educational use for others`**
+- `Fixed some issues I noticed, should be working with no issues if your on an Arch based distribution`
 ## `About this Package`:
 `This package was built for myself to quickly gather applications and tools I use currently use. I am a Web Development student at Fanshawe College so at the moment the tools are very basic for basic learning and web development. This NPM package was built purely for learning purposes to self teach myself some things`.
 
