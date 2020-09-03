@@ -1,6 +1,6 @@
 import os
 
-# AUR package names
+# AUR package names - variable shortcuts
 arch = 'https://aur.archlinux.org/'
 google = 'google-chrome'
 github = 'github-desktop-bin'
@@ -9,15 +9,13 @@ git = '.git'
 caffeine = 'caffeine-ng'
 vue = 'vue-cli'
 gconf = 'gconf'
-nvm = 'nvm'
 
 # sudo variables
 sudo = 'sudo pacman -S '
-
 # getting current file path
 path = os.getcwd()
 # changing into install folder thats currently created and empty
-os.chdir(r'packages')
+os.chdir(r'aur')
 
 # function to download AUR packages
 def download(download, bash, path):
@@ -32,19 +30,18 @@ def download(download, bash, path):
 
 # scripts list to loop through 
 scripts = [
-    sudo + 'ruby-sass',
-    'sass -v',
-    sudo + 'scrapy',
-    'scrapy version',
+    sudo + 'base-devel',
     sudo + 'git',
+    sudo + 'ruby-sass',
+    sudo + 'scrapy',
     sudo + 'neofetch',
-    'neofetch'
 ]
 
+# looping through above scripts
 for script in scripts:
     os.system(script)
 
-# AUR package downloads using download function
+# AUR package downloads using 'download' function
 download('Google Chrome', arch + google + git, google)
 download('GConfig', arch + gconf + git, gconf)
 download('Github Desktop', arch + github + git, github)
@@ -54,22 +51,27 @@ download('Vue CLI', arch + vue + git, vue)
 
 # changing path to initial directory
 os.chdir(path)
-
 # changing path to remove junk files
-os.chdir(r'packages')
+os.chdir(r'aur')
 
-# garbage collection
-print("Deleting junk files")
-
-# list of item paths to delete
+# list of item paths to delete from packages directory
 items = [
-    google, github, code, caffeine, vue, gconf, nvm
+    google, 
+    github, 
+    code, 
+    caffeine, 
+    vue, 
+    gconf
 ]
 
 # loop to delete items
 for item in items:
     print('Deleting ' + item + ' AUR folders')
     os.system('rm -rf ' + item)
+    
+# finishing script
+print("Script is finished, close the terminal if you wish.")
+print("If you had any errors please refer to documentation at https://github.com/quelchlax/lax-quick-start")
 
 
 

@@ -1,18 +1,45 @@
-![Badge](https://img.shields.io/badge/quelchlax-readme-orange?style=flat-square)
-
-![NPM](https://img.shields.io/npm/l/lax-quick-start) ![npm](https://img.shields.io/npm/dw/lax-quick-start) ![GitHub repo size](https://img.shields.io/github/repo-size/quelchlax/lax-quick-start) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/lax-quick-start) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/quelchlax/lax-quick-start) ![npm](https://img.shields.io/npm/dt/lax-quick-start)
+## `A quick setup for web developers using Arch Linux`
 
 ---
 
-# **Lax Quick Start**
-- **`Package is meant for personal use. Coded for experimental and educational use for others`**
-- `Fixed some issues I noticed, should be working with no issues if your on an Arch based distribution`
-## `About this Package`:
-`This package was built for myself to quickly gather applications and tools I use currently use. I am a Web Development student at Fanshawe College so at the moment the tools are very basic for basic learning and web development. This NPM package was built purely for learning purposes to self teach myself some things`.
+![NPM](https://img.shields.io/npm/l/lax-quick-start) ![npm](https://img.shields.io/npm/dw/lax-quick-start) ![GitHub repo size](https://img.shields.io/github/repo-size/quelchlax/lax-quick-start) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/lax-quick-start) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/quelchlax/lax-quick-start) ![npm](https://img.shields.io/npm/dt/lax-quick-start)
 
-**Only works with Arch based Linux Distributions**
+## ![Badge](https://img.shields.io/badge/quelchlax-lax.quick.start-orange?style=flat-square)
+---
 
-**Applications and Tools Downloaded with this NPM:**
+- [NPM Package](#NPM-Package)
+- [Py Package](#Python-Method)
+- [Applications](#Apps-Downloaded-with-NPM)
+- [About](#About-this-Package)
+
+``` shell
+[quelchlax@arch ~]$ neofetch
+                   -`                    quelchlax@arch 
+                  .o+`                   -------------- 
+                 `ooo/                   OS: Arch Linux x86_64 
+                `+oooo:                  Host: 81SX Legion Y540-15IRH 
+               `+oooooo:                 Kernel: 5.8.5-arch1-1 
+               -+oooooo+:                Uptime: 6 mins 
+             `/:-:++oooo+:               Packages: 1136 (pacman) 
+            `/++++/+++++++:              Shell: bash 5.0.18 
+           `/++++++++++++++:             Resolution: 1920x1080 
+          `/+++ooooooooooooo/`           DE: Plasma 5.19.5 
+         ./ooosssso++osssssso+`          WM: KWin 
+        .oossssso-````/ossssss+`         WM Theme: Breeze 
+       -osssssso.      :ssssssso.        Theme: Breeze Dark [Plasma], Breez 
+      :osssssss/        osssso+++.       Icons: Tela [Plasma], Tela [GTK2/3 
+     /ossssssss/        +ssssooo/-       Terminal: konsole 
+   `/ossssso+/:-        -:/+osssso+-     CPU: Intel i7-9750H (12) @ 4.500GH 
+  `+sso+:-`                 `.-/+oso:    GPU: NVIDIA GeForce GTX 1660 Ti Mo 
+ `++:.                           `-/+/   Memory: 1942MiB / 15927MiB 
+ .`                                 `/
+                                                                 
+```                  
+---                                             
+
+## **Apps Downloaded with NPM:**
+---
+- Base-Devel
 - Google Chrome
 - Github Desktop + Git
 - Visual Studio Code 
@@ -23,23 +50,32 @@
 - Caffeine
 - Neofetch
 - GConf
-- NVM
 ---
 
-## NPM Package:
+## **NPM Package**
 ``` python
     npm install lax-quick-start
 ```
 
-`If issues arise please refer to https://github.com/quelchlax/endeavourOS`
+- `If issues arise please refer to https://github.com/quelchlax/lax-quick-start`
+- `If NPM for some reason just wont compile code from AUR, gets an error, or is missing something please try this python script`
+- `Has been tested and works with no issues. Just have to be patient with AUR packages taking a bit to compile at times`
 
-- **`If NPM for some reason just wont compile code from AUR please use this method!!!`**
+## **Python Method:**
 ``` shell
     cd ~
-    git clone https://github.com/quelchlax/endeavour-os.git
-    cd endeavour-os
-    cd scripts
-    python3 setup.py
+    git clone https://github.com/quelchlax/lax-quick-start.git
+    cd lax-quick-start
+    python3 init.py
 ```
+---
 
+## `About this Package`:
+- `This package intentions are to get a few applications while I setup Arch Linux on my various computers during install or post install.`
+- `Package just auto compiles shell commands to fetch various applications and tools from Arch User Repositories (AUR). Is working for others to use.`
+- **`Package is meant for personal use. Coded for experimental and educational use for myself and others`**
+- `Fixed some issues I noticed, should be working with no issues if your on an Arch based distribution`
 
+---
+
+*[Top of Documents](#A-quick-setup-for-web-developers-using-Arch-Linux)*
