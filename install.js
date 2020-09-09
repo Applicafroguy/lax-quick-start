@@ -1,5 +1,10 @@
-const shell = require('shelljs')
+const sh = require('shelljs')
 
-shell.echo('Package has some issues within running within NPM, please visit https://github.com/quelchlax/lax-quick-start for a simple guide on how to manually install this package so it works. Cheers!')
-
+try {
+    sh.echo('Package has some issues within running within NPM. Opening browser to documentation for manual install. Cheers!')
+    sh.exec('python3 open.py')
+} catch (error) {
+    sh.echo(error + ' was found')
+    sh.exit(1)
+}
 
