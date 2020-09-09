@@ -7,6 +7,23 @@
 ## ![Badge](https://img.shields.io/badge/quelchlax-lax.quick.start-orange?style=flat-square)
 ---
 
+**Issue with NPM Package Please Read**
+
+#### Please refer to manual download, found an error in which NPM just stops working after accepting a package download. **Please read below**
+
+Follow this guide from your terminal and type the following commands:
+``` python
+mkdir temp && cd temp
+npm i lax-quick-start
+cd node_modules/lax-quick-start
+python3 init.py
+# or (both do same thing)
+node init.js
+```
+Or read how to install the python script from my github repository below
+
+---
+
 - [NPM Package](#NPM-Package)
 - [Py Package](#Python-Method)
 - [Applications](#Apps-Downloaded-with-NPM)
@@ -39,7 +56,6 @@
 
 ## **Apps Downloaded with NPM:**
 ---
-- Base-Devel
 - Google Chrome
 - Github Desktop + Git
 - Visual Studio Code 

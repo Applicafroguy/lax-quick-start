@@ -30,8 +30,8 @@ def download(download, bash, path):
 
 # scripts list to loop through 
 scripts = [
-    sudo + 'base-devel',
     sudo + 'git',
+    sudo + 'python-pip',
     sudo + 'ruby-sass',
     sudo + 'scrapy',
     sudo + 'neofetch',
