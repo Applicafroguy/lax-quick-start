@@ -1,6 +1,6 @@
 {
   "name": "lax-quick-start",
-  "version": "3.6.2",
+  "version": "3.6.3",
   "description": "Quick start up for web developers usings Linux",
   "main": "install.js",
   "dependencies": {
